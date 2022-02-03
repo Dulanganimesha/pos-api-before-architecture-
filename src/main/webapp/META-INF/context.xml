@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource name="jdbc/posCP" auth="Container" type="javax.sql.DataSource"
+              maxTotal="4" maxIdle="2" maxWaitMillis="-1"
+              username="root" password="test" driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/dep7_pos"/>
+</Context>
